@@ -1,0 +1,241 @@
+@media (max-width: 1199px) {
+    .discover{margin-bottom: -200px;}
+}
+
+@media (max-width: 992px) {
+
+
+    .post-detail-info>h1 {
+        font-size: 1.875rem !important;
+        letter-spacing: -1px;
+    }
+
+    .comment-reply {
+        padding: 30px;
+    }
+
+.discover{margin-bottom:0;transform:none;margin-top: 30px;}
+.header-action-items {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.hero-wrap {
+    padding: 220px 0 160px;
+}
+.hero-content h1 {
+    font-size: 64px;}
+.discover-title h5 {
+    
+    color: var(--main-color);
+}
+.place {
+    margin-top: 30px;
+}
+.discover-box{margin-bottom: 20px;}
+.discover-content h3 {
+    font-size: 26px;}
+.place-head h2 {
+    font-size: 26px;}
+.place-content h3 {
+    font-size: 26px;}
+.sec-tl h2 {
+    font-size: 28px;}
+.explore-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.explore-preview{margin-top:30px;border-width: 5px;}
+.journey-wrapper h2 {
+    font-size: 50px;}
+.ft-wrapper>h2 {
+    font-size: 150px;}
+    .explore-preview img {
+    transform: none;
+}
+.ft-wrapper .widget p {
+    font-size: 22px;}
+}
+
+@media (max-width:767px) {
+    .logo-wrapper h1 {
+    font-size: 26px;}
+    .hero-content h1 {
+    font-size: 50px;
+}
+.discover-content h3 {
+    font-size: 24px;}
+.discover-box:hover .discover-content h3 {
+    font-size: 30px;
+}
+.place-head h2 {
+    font-size: 24px;margin-bottom: 20px;
+}
+.place-head form input{height: 50px;}
+.place-content h3 {
+    font-size: 24px;}
+    .sec-tl h2 {
+    font-size: 26px;}
+.mb-60 {
+    margin-bottom: 40px;
+}
+.explore-content h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.explore-content p+p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.explore {
+    padding: 60px 0 60px;
+}
+
+.journey-wrapper h2 {
+    font-size: 40px;
+}
+.journey-wrapper {
+    padding: 100px 0;
+}
+.ft-wrapper {
+    padding: 60px 0;}
+.ft-wrapper>h2 {
+    font-size: 110px;
+}
+}
+
+
+@media (max-width:575px) {
+   .hero-content h1 {
+    font-size: 40px;
+}
+.hero-content p {
+    margin-bottom: 24px;
+}
+.theme-btn{font-size: 12px;}
+.logo-wrapper h1 {
+    font-size: 24px;
+}
+.container-fluid {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.place-head h2 {
+    font-size: 22px;
+}
+.place-head .tags-wrapper{flex-direction: column;}
+.place-content h3 {
+    font-size: 22px;}
+.sec-tl h2 {
+    font-size: 24px;}
+
+.explore-content h2 {
+    font-size: 24px;
+}
+.explore-content{text-align: center;}
+.journey-wrapper h2 {
+    font-size: 30px;
+}
+.ft-wrapper {
+    padding: 40px 0;
+}
+.ft-wrapper .widget p {
+    font-size: 20px;
+}
+.ft-wrapper>h2 {
+    font-size: 60px;
+}
+
+
+    .blog-content {
+        text-align: center;
+    }
+
+    blockquote>p {
+        font-size: 16px;
+    }
+
+    #authorize-popup .modal-body {
+        padding: 40px 25px 50px;
+    }
+
+    .post-detail-info>h1 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .post-detail-min-author-info>h5 {
+        font-size: 16px;
+    }
+
+    .post-detail-min-author-info>h5+span {
+        font-size: 12px;
+    }
+
+    .post-detail-content {
+        text-align: center;
+    }
+
+    .grid-2 {
+        grid-template-columns: auto;
+        gap: 0;
+    }
+
+    .post-detail-content+.post-detail-share {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .post-detail-share>h5+.share-links {
+        justify-content: center;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .post-detail-author-info {
+        text-align: center;
+        padding: 1.25rem;
+        justify-content: center;
+    }
+
+    .post-detail-author-info>img+.post-detail-info-inner {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 1.25rem 0 0;
+    }
+
+    .post-detail-info-inner>p+.share-links {
+        justify-content: center;
+    }
+
+    .comments-thread>h3,
+    .comment-reply>h3 {
+        font-size: 24px;
+    }
+
+    .comment {
+        margin-top: 3.875rem;
+        justify-content: center;
+        text-align: center;
+        gap: 6px;
+    }
+
+    .comment>img+.comment-detail {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 26px 0 0;
+    }
+
+    .comment-list .reply {
+        text-align: center;
+    }
+
+    .comment-reply {
+        padding: 30px;
+    }
+
+    .comment-reply .field-btn {
+        text-align: center;
+    }
+}
